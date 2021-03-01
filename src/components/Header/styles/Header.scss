@@ -1,0 +1,22 @@
+$header-height: 3em;
+
+.header {
+  background-color: #2d936c;
+  width: 100%;
+  height: $header-height;
+  position: fixed;
+  display: flex;
+
+  &__title {
+    font-weight: bold;
+    color: #ffffff;
+    align-self: center;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 15px;
+  }
+}
+
+.header-placeholder {
+  height: 3em;
+}

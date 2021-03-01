@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## API key in .env
+In development mode, `REACT_APP_METRO_API_KEY=<API key>` should be put in `.env` of root directory.\
+Please obtain the API key from me, or use the demo API key provided by WMATA.
+
+## Run the app
+First, make sure the API key in `.env` mentioned above is set.\
+Then, install the app by running `yarn` (= `yarn install`).\
+After that, run `yarn start`.
+
 ## Available Scripts
 
 In the project directory, you can run:

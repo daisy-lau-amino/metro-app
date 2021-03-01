@@ -1,0 +1,29 @@
+.train-list {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+
+  &__loading-image {
+    display: flex;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+  }
+
+  &__last-update {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 13px;
+    margin: 5px;
+  }
+
+  &__no-result-message {
+    text-align: center;
+    background-color: #f0faf5;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    color: #153c29;
+  }
+}
